@@ -29,10 +29,10 @@ function createLayout() {
 
         <header class="py-12 px-4 max-w-7xl mx-auto text-center">
             <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4 tracking-tight">
-                Znajdź przepis na każdą okazję
+                Your next favorite meal starts here
             </h2>
             <p class="text-slate-500 text-lg max-w-2xl mx-auto mb-8">
-                Przeszukuj tysiące pysznych dań, filtruj według składników i gotuj jak profesjonalista.
+                Search through thousands of delicious dishes, filter by ingredients and cook like a pro.
             </p>
 
             <div class="max-w-2xl mx-auto relative group">
@@ -40,20 +40,20 @@ function createLayout() {
                     <span class="text-xl">🔍</span>
                 </div>
                 <input type="text" 
-                       placeholder="Wpisz składnik lub nazwę dania..." 
+                       placeholder="Type an ingredient or dish name..." 
                        class="w-full pl-14 pr-32 py-4 bg-white border border-slate-200 rounded-2xl shadow-sm focus:outline-none focus:ring-4 focus:ring-brand/10 focus:border-brand transition-all text-lg overflow-hidden">
                 <button class="absolute right-2 top-2 bottom-2 bg-brand text-white px-6 rounded-xl font-semibold hover:opacity-90 transition-opacity">
-                    Szukaj
+                    Search
                 </button>
             </div>
         </header>
 
         <div class="max-w-7xl mx-auto px-4 mb-10 overflow-x-auto no-scrollbar">
             <div class="flex justify-center items-center gap-3 py-2">
-                <button class="px-5 py-2 bg-white border border-slate-200 hover:border-brand hover:bg-slate-50 hover:-translate-y-0.5 hover:shadow-md rounded-full text-sm font-medium whitespace-nowrap transition-all duration-200">🥦 Wegetariańskie</button>
-                <button class="px-5 py-2 bg-white border border-slate-200 hover:border-brand hover:bg-slate-50 hover:-translate-y-0.5 hover:shadow-md rounded-full text-sm font-medium whitespace-nowrap transition-all duration-200">⚡ Szybkie (do 30 min)</button>
-                <button class="px-5 py-2 bg-white border border-slate-200 hover:border-brand hover:bg-slate-50 hover:-translate-y-0.5 hover:shadow-md rounded-full text-sm font-medium whitespace-nowrap transition-all duration-200">🍗 Wysokobiałkowe</button>
-                <button class="px-5 py-2 bg-white border border-slate-200 hover:border-brand hover:bg-slate-50 hover:-translate-y-0.5 hover:shadow-md rounded-full text-sm font-medium whitespace-nowrap transition-all duration-200">🍰 Desery</button>
+                <button class="px-5 py-2 bg-white border border-slate-200 hover:border-brand hover:bg-slate-50 hover:-translate-y-0.5 hover:shadow-md rounded-full text-sm font-medium whitespace-nowrap transition-all duration-200">🥦 Vegetarian</button>
+                <button class="px-5 py-2 bg-white border border-slate-200 hover:border-brand hover:bg-slate-50 hover:-translate-y-0.5 hover:shadow-md rounded-full text-sm font-medium whitespace-nowrap transition-all duration-200">⚡ Quick (under 30 min)</button>
+                <button class="px-5 py-2 bg-white border border-slate-200 hover:border-brand hover:bg-slate-50 hover:-translate-y-0.5 hover:shadow-md rounded-full text-sm font-medium whitespace-nowrap transition-all duration-200">🍗 High Protein</button>
+                <button class="px-5 py-2 bg-white border border-slate-200 hover:border-brand hover:bg-slate-50 hover:-translate-y-0.5 hover:shadow-md rounded-full text-sm font-medium whitespace-nowrap transition-all duration-200">🍰 Desserts</button>
             </div>
         </div>
 
@@ -70,7 +70,7 @@ function createSkeletonCard() {
         <div class="group bg-white rounded-3xl border border-slate-100 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
             <div class="relative h-56 bg-slate-200 overflow-hidden">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
-                   <span class="text-white text-sm font-medium cursor-pointer">Zobacz przepis →</span>
+                   <span class="text-white text-sm font-medium cursor-pointer">View Recipe →</span>
                 </div>
                 <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=500" class="w-full h-full object-cover">
             </div>
@@ -79,7 +79,7 @@ function createSkeletonCard() {
                     <span class="text-[10px] font-bold uppercase tracking-wider text-brand bg-brand/10 px-2 py-0.5 rounded">Breakfast</span>
                     <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">⏱ 20 min</span>
                 </div>
-                <h3 class="font-bold text-slate-900 text-lg leading-snug group-hover:text-brand transition-colors">Puszyste Placuszki z Owocami Jagodowymi</h3>
+                <h3 class="font-bold text-slate-900 text-lg leading-snug group-hover:text-brand transition-colors">Fluffy Pancakes with Fresh Berries</h3>
                 <div class="mt-4 flex items-center justify-between text-sm text-slate-500">
                     <span class="flex items-center gap-1">⭐ 4.8</span>
                     <span class="flex items-center gap-1">🔥 320 kcal</span>
